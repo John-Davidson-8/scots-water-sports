@@ -1,9 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-h2 {
-  vertical-align: center;
-  text-align: center;
-}
-
 html,
 body {
   margin: 0;
@@ -21,7 +16,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #00baf0;
-  background: linear-gradient(to left, #f46b45, #eea849);
+  /* background: linear-gradient(to left, #f46b45, #eea849); */
   color: #fff;
   height: 50px;
   padding: 1em;
@@ -89,6 +84,39 @@ body {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
+/* new css */
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
+.menu > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/* .kayakman {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+} */
+h1 {
+  text-align: center;
+  color: #00baf0;
+  font-size: 3rem;
+  padding: 1rem;
+}
+p {
+  text-align: center;
+  padding: 1rem;
+  color: gray;
+  line-height: 1.5rem;
+}
 
 @media (max-width: 700px) {
   .menu-button-container {
@@ -128,5 +156,20 @@ body {
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+}
+@media (min-width: 700px) {
+  /* new css */
+  .flex-index {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .flex-index img {
+    width: 40%;
+    margin-left: 2rem;
+    display: block;
+    border-radius: 2rem;
   }
 }

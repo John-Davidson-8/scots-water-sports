@@ -85,6 +85,9 @@ body {
   transform: rotate(-405deg);
 }
 /* new css */
+body {
+  background-color: #e6f5ff;
+}
 .logo {
   text-decoration: none;
   color: inherit;
@@ -111,9 +114,14 @@ h1 {
   font-size: 3rem;
   padding: 1rem;
 }
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #00baf0;
+}
 p {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
   color: gray;
   line-height: 1.5rem;
 }
@@ -158,8 +166,14 @@ p {
     border-bottom: 1px solid #444;
   }
 }
+/* new css */
+@media (min-width: 1200px) {
+  body {
+    max-width: 80%;
+    margin: auto;
+  }
+}
 @media (min-width: 700px) {
-  /* new css */
   .flex-index {
     display: flex;
     flex-direction: row;

@@ -16,7 +16,6 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #00baf0;
-  /* background: linear-gradient(to left, #f46b45, #eea849); */
   color: #fff;
   height: 50px;
   padding: 1em;
@@ -92,6 +91,10 @@ body {
   text-decoration: none;
   color: inherit;
 }
+.logo-span {
+  font-size: 3rem;
+  color: blue;
+}
 .menu > li > a {
   text-decoration: none;
   color: inherit;
@@ -102,12 +105,6 @@ img {
   margin-right: auto;
   width: 100%;
 }
-/* .kayakman {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-} */
 h1 {
   text-align: center;
   color: #00baf0;
@@ -119,14 +116,50 @@ h2 {
   font-size: 2rem;
   color: #00baf0;
 }
-p {
+h3 {
+  font-size: 1.5rem;
   text-align: center;
+  color: #00baf0;
+}
+h4 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+p {
+  text-align: justify;
   padding: 2rem;
   color: gray;
   line-height: 1.5rem;
 }
 .map {
   margin: 0 auto;
+  text-align: center;
+}
+footer {
+  background-color: #d9f2ff;
+  padding: 2rem;
+}
+input[type="text"] {
+  border-radius: 5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  display: block;
+  margin: auto;
+}
+.icon-circle {
+  background: rgba(128, 173, 245, 0.2);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+}
+.footer-icons {
+  margin: 3rem auto;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+.trademark {
   text-align: center;
 }
 
@@ -173,7 +206,7 @@ p {
 /* new css */
 @media (min-width: 1200px) {
   body {
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
   }
 }
